@@ -3,7 +3,7 @@ SublimeLinter-contrib-solium
 
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-solium.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-solium)
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [solium](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [solium](https://github.com/duaraghav8/Solium). It will be used with files that have the “solidity” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
