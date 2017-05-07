@@ -28,7 +28,7 @@ Before using this plugin, you must ensure that `solium` is installed on your sys
 1. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plugin for `oh-my-zsh`.
 
 
-**Note:** This plugin requires `solium` __version__ or later.
+**Note:** This plugin requires `solium` 0.2.2 or later.
 
 ### Linter configuration
 In order for `solium` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
