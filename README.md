@@ -3,7 +3,7 @@ SublimeLinter-contrib-solium
 
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-solium.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-solium)
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [solium](https://github.com/duaraghav8/Solium). It will be used with files that have the “solidity” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [solium](https://github.com/duaraghav8/Solium). It will be used with files that have the [“solidity” syntax](https://packagecontrol.io/packages/Ethereum).
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
@@ -11,9 +11,8 @@ SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 
 ### Linter installation
 Before using this plugin, you must ensure that `solium` is installed on your system. To install `solium`, do the following:
 
-1. Install [Node.js](http://nodejs.org) (and [npm](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager) on Linux).
-
 1. Install [Sublime Ethereum Package](https://packagecontrol.io/packages/Ethereum) from package control, for solidity syntax highlighting:
+1. Install [Node.js](http://nodejs.org) (and [npm](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager) on Linux).
 1. Install [solium](https://github.com/duaraghav8/Solium) by typing the following in a terminal:
    ```
    npm install -g solium
@@ -22,11 +21,6 @@ Before using this plugin, you must ensure that `solium` is installed on your sys
    ```
    solium --init
    ```
-
-1. If you are using `nvm` and `zsh`, ensure that the line to load `nvm` is in `.zshenv` and not `.zshrc`.
-
-1. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plugin for `oh-my-zsh`.
-
 
 **Note:** This plugin requires `solium` 0.2.2 or later.
 
